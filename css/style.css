@@ -1,0 +1,137 @@
+@charset "UTF-8";
+/* CSS Document */
+/*! Created by George Gonzalez*/
+
+/*-------------------------------------------------------*/
+/*  HEADER STYLES
+/*-------------------------------------------------------*/
+
+* {
+    box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.columna {
+    float: left;
+    width: 31.25%;
+    padding: 10px;
+	background-color: #002040;
+}
+
+/* Clear floats after the columns */
+.head:after {
+    content: "";
+    display: table;
+    clear: both;
+	position: relative;
+}
+
+/* general */
+.header {
+  overflow: hidden;
+  background-color: #002040;
+  padding: 20px 10px;
+}
+
+.header a {
+  float: left;
+  color: #FFF;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.header-right {
+  float: right;
+  padding-left: 5%;
+	width: 25%;
+}
+
+.title {
+  float: left;
+  color: #FFF;
+  text-align: center;
+  text-decoration: none;
+  font-size: 24px; 
+  line-height: 25px;
+}
+
+.logo-byu {
+    max-height: 90px;
+	height: 25%;
+	width: auto;
+}
+
+.infoPict {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	margin-bottom: 30px;
+    width: 70%;
+    height: 300px;
+    max-height: 300px;
+    overflow: hidden;
+}
+
+/*-------------------------------------------------------*/
+/*  FOOTER STYLES
+/*-------------------------------------------------------*/
+.footer {
+   position: fixed;
+   padding-top: 30%;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #002040;
+   color: white;
+   text-align: center;
+}
+
+
+.twos.columns { 
+	width: 30%; 
+	background-color: #ccc;
+	margin: 10px;
+	text-align: center !important;
+}
+
+.tres { 
+	width: 15.55%; 
+	background-color: #002040;
+	color:#fff;
+	margin: 5px;
+	text-align: center !important;
+}
+
+.columnax {
+    float: left;
+    padding: 10px;
+}
+
+/*-------------------------------------------------------*/
+/*  PRODUCT STYLES
+/*-------------------------------------------------------*/
+.productSection {
+    margin: auto;
+    /* margin-top: 485px; */
+    margin-bottom: 30px;
+    width: 100%;
+}
